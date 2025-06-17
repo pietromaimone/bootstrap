@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input::placeholder {
+  color: #ccc;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
