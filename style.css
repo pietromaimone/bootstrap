@@ -1,16 +1,40 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   body {
+      font-family: 'Segoe UI', sans-serif;
+    }
 
-form input::placeholder {
-  color: #ccc;
-}
+    .btn-custom {
+      background-color: #28a745;
+      color: white;
+      border: none;
+    }
 
-form {
-  background-color: #fff;
-  border-radius: 15px;
-}
+    .btn-custom:hover {
+      background-color: #218838;
+    }
 
-h1 {
-  font-size: 2.2rem;
-}
+    .bg-custom {
+      background-color: #e8f5e9;
+    }
+
+    .text-highlight {
+      color: #28a745;
+    }
+
+    .card-custom {
+      border: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      font-size: 0.9rem;
+    }
